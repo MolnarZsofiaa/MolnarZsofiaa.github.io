@@ -1,0 +1,64 @@
+body{
+    background-image: url(hatter.jpg);
+    background-size: cover;
+    background-position: center top;
+    
+    color: white;
+    overflow-x: hidden; /*kilogo resz nem latszik*/
+
+}
+
+#karakter{
+    width: 500px;
+    margin: 50px auto;
+    background-color: rgba( 0,0, 0, 50);
+    text-align: justify;
+    padding: 20px;
+    border: solid rgba(38, 38, 61, 0.807) 5px;
+    border-radius: 50px;
+    box-shadow:
+    0 0 10px rgb(239, 255, 9), /*mennyire mosódik el a sárga szín, eltolas*/
+    0 0 20px white,
+    inset 0 0 10px rgb(111, 111, 7); /*inset: belul van a shadow*/
+       
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffe81f;
+    text-shadow: 0 0 15px #ffe81f;
+}
+
+#leir{
+    font-size: 20px;
+    margin: 10px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    background-color: #ffe81f;
+    color: black;
+    border: none;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #8b871d;
+    transform: scale(1.03);
+}
+
